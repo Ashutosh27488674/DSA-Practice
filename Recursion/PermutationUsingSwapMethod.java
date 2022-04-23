@@ -12,7 +12,7 @@ public class PermutationUsingSwapMethod {
 
     public static void Permutation(int i,ArrayList<Integer> arr,ArrayList<ArrayList<Integer>> ans,int n)
     {
-        if(i==n-1)
+        if(i==n)
         {
 //            System.out.println(arr);
             ans.add(new ArrayList<Integer>(arr));
